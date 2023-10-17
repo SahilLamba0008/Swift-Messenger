@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&family=Work+Sans:wght@300&display=swap');
+
+:root{
+    --main-bg: #040122;
+    --main-bg-light: #060047;
+    --border-light-pink: #FF5F9E;
+    --mid-pink: #E90064;
+    --dark-pink: #B3005E;
+    --dark-pink-extra: #1f0011;
+    --text-white: #ffffff;
+}
+
+.App {
+    min-height: 100vh;
+    display: flex;
+    /* background-color: #040122; */
+    background: linear-gradient(to bottom, var(--main-bg), var(--dark-pink-extra));
+    background-size: cover;
+    background-position: center;
+    color: var(--text-white);
+    font-family: 'Poppins',sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
