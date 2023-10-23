@@ -3,10 +3,10 @@ const mongoose = require("mongoose");
 
 const uri = process.env.MONGODB_URI;
 
-console.log(process.env);
-console.log("MONGODB_URI:", process.env.MONGODB_URI);
-console.log("PORT:", process.env.PORT);
-console.log("NODE_ENV:", process.env.NODE_ENV);
+// console.log(process.env);
+// console.log("MONGODB_URI:", process.env.MONGODB_URI);
+// console.log("PORT:", process.env.PORT);
+// console.log("NODE_ENV:", process.env.NODE_ENV);
 
 
 const connectDB = async() =>{
